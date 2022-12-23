@@ -1,5 +1,5 @@
 {
-    "ProjectName" : "[[Write project name here]]",
+    "ProjectName" : "Login",
     "Namespace" : "Space.Service.Plugin",
     "PluginInterface": "PluginInterface"
 }
