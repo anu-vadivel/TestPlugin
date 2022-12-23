@@ -1,0 +1,13 @@
+fileignoreconfig:
+- filename: .github/workflows/build.yml
+  ignore_detectors:
+  - filecontent
+- filename: sonar-project.properties
+  ignore_detectors:
+  - filecontent
+- filename: '{{cookiecutter.Namespace}}.{{cookiecutter.ProjectName}}Plugin/tools/codeCoverage/run-tests-with-coverage-ci.sh'
+  ignore_detectors:
+  - filecontent
+- filename: '{{cookiecutter.Namespace}}.{{cookiecutter.ProjectName}}Plugin/tools/run-tests-with-coverage-local.sh'  
+  ignore_detectors:
+  - filecontent
